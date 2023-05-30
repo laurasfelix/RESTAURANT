@@ -42,9 +42,9 @@ ID Selector */
 .fixed
 {
   position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
+  bottom: 2px;
+  right: 30px;
+  width: 60px;
   border: 3px solid #73AD21;
 }
 
@@ -52,17 +52,16 @@ ID Selector */
 {
   position: absolute;
   top: 80px;
-  right: 0;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
+  right: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 .sticky
 {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
-  background-color: green;
-  border: 2px solid #4CAF50;
+  top: 3px;
+  background-color: rgb(173, 211, 24);
+  border: 2px solid #641fb2;
 }
